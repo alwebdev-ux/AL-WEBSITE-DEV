@@ -1,6 +1,6 @@
-const menuAMD = document.querySelector(".nav_bar")
-const navlink = document.querySelector(".but")
+const menu = document.querySelector(".nav_bar")
+const navlink = document.querySelector(".navbar")
 
-menuAMD.addEventListener('click', ()=>{
+menu.addEventListener('click', ()=>{
     navlink.classList.toggle('MLM')
 })

@@ -16,21 +16,16 @@ body {
 
 nav {
     background-color: rgb(33, 33, 33);
-    position: fixed;
     width: 100%;
     top: 0%;
-    z-index: 10000;
+    z-index:10 ;
     border-bottom: #ffffff72 1px solid;
-
-
-}
-
-
-
-.but1 {
+    position: sticky;    
     display: flex;
     justify-content: space-around;
 }
+
+
 
 .nn {
     text-decoration: none;
@@ -110,6 +105,7 @@ nav {
     border-radius: 15px;
     animation: float 3s ease-out infinite;
     box-shadow: #ffffff 1px 1px 25px 25px;
+    z-index: -5;
 }
 
 @keyframes float {
@@ -144,14 +140,12 @@ nav {
     overflow: hidden;
 
 }
-
-.svgIcon {
-    transition-duration: .3s;
+.Btn:hover {
+    width: 110px;
+    transition-duration: .4s;
+    border-radius: 30px;
 }
 
-.svgIcon path {
-    fill: white;
-}
 
 .text {
     position: absolute;
@@ -190,9 +184,10 @@ nav {
 .media {
     display: flex;
     padding-left: 50px;
+    z-index: 1500;
 }
 
-@keyframes fade {
+@keyframes ade {
     from {
         opacity: 0;
     }
@@ -338,55 +333,55 @@ a {
         border: none;
         height: 100%;
         background-color: transparent;
-    }
-
-    .but {
-
-        background-color: rgb(33, 33, 33);
-
-        position: absolute;
-        width: 100%;
-        height: 100%;
+        margin: 0;
         margin-left: -100%;
-        z-index: ;
-    }
-
-
-    .but.MLM{
-        background-color: rgba(33, 33, 33,);
-        margin-left: 0;
-    }
-    .nn {
-        width: 100%;
-        z-index: 50;
-    }
-
-    .but1 {
-
-        height: 100%;
-
-    }
-
-
-    .but .but1 {
+        transition: 0.75s;
         display: flex;
         flex-direction: column;
+        position: absolute;
     }
 
-    .logo {
+    .navbar.MLM{
+        height: 100%;
+        width: 100%;
+        position: center;
+        margin-left: -0.5%;
+        display: flex;
+        flex-direction: column;
         position: fixed;
-        left: 5%;
-        background-color: #0055ff00;
+        background-color: rgb(33, 33, 33);
+        transition: 0.75s;
+        border-right: #ffffff solid 2px;
+ }
+    
+    .logo {
+        border: white solid 2px;
+        position: fixed;
+        background-color: rgb(33, 33, 33);
         z-index: 99;
+        font-size: 15px;
+        top: 0;
+        left : 0;
+        margin: 1%;
+
+        
     }
 
     .nav_bar {
-        position: absolute;
-        display: flex;
-        padding: 15px;
-        width: 10%;
-        z-index: 99;
+        position: fixed;
+        top: 0;
         right: 0;
+        display: block;
+        width: 50px;
+        padding: 1%;
+        z-index: 99;
+    }
+
+    .TT1{
+
+    }
+    .CT1{
+        
     }
 
 
@@ -437,6 +432,6 @@ a {
     } 
 
     .CT2{
-        font-size: 20px;
+        font-size: 15px;
     }
 }

@@ -92,7 +92,7 @@ nav {
 
 .presentation {
     width: 100%;
-    margin-top: 15%;
+
     animation: fade 2s ease forwards;
 }
 
@@ -213,7 +213,7 @@ a {
 .TT1 {
     color: white;
     font-size: 50px;
-    margin-top: 150px;
+   
     animation: fade 3s;
     text-align: center;
 }
@@ -251,7 +251,7 @@ a {
     animation: fade 3s;
     font-size: 50px;
     text-align: center;
-    margin-top: 10%;
+
     margin-bottom: 5%;
 }
 
@@ -306,7 +306,7 @@ a {
 }
 
 .CT1 {
-    margin-top: 15%;
+
     font-size: 50px;
     animation: fade 3s;
 }

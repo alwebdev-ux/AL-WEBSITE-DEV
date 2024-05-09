@@ -342,8 +342,8 @@ a {
 
     .but {
 
-        background-color: rgba(33, 33, 33,);
-        backdrop-filter: blur(20px);
+        background-color: rgb(33, 33, 33);
+
         position: absolute;
         width: 100%;
         height: 100%;
@@ -353,7 +353,7 @@ a {
 
 
     .but.MLM{
-       
+        background-color: rgba(33, 33, 33,);
         margin-left: 0;
     }
     .nn {
@@ -362,7 +362,7 @@ a {
     }
 
     .but1 {
-        
+
         height: 100%;
 
     }

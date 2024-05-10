@@ -188,7 +188,7 @@ nav {
     z-index: 1500;
 }
 
-@keyframes ade {
+@keyframes fade {
     from {
         opacity: 0;
     }
